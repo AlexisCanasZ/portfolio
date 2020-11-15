@@ -1,0 +1,30 @@
+*{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+	text-align: center;
+	background: #1d273b;
+}
+
+.container {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box h1,
+.box h3,
+.box small{
+	color: #fff;
+}
